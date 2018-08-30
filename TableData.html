@@ -1,0 +1,223 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Table Data</title>
+
+</head>
+
+<body>
+  
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Term</th>
+    <th class="tg-0lax">Definition</th>
+    <th class="tg-0pky">Picture</th>
+    <th class="tg-0pky">Example</th>
+    <th class="tg-0pky">Creation</th>
+    <th class="tg-0lax">Tools</th>
+    <th class="tg-0lax">Owner</th>
+    <th class="tg-0lax">MVP/E2E</th>
+    <th class="tg-0lax">Status</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Objects or properties <br>essential to your MVP</td>
+    <td class="tg-0lax">Definition of the object or property as used in your MVP</td>
+    <td class="tg-0pky">Visual representation (only for objects)</td>
+    <td class="tg-0pky">Name of provided sample file<br>OR direct link to shared sample file<br>OR textual example<br>OR list of reference values</td>
+    <td class="tg-0pky">Select, if you <br>create the object or require it <br>as input for your MVP</td>
+    <td class="tg-0lax">List of tools to create, read and distribute <br>the object as planned by your MVP</td>
+    <td class="tg-0lax">Department responsible in the future to govern this object or property</td>
+    <td class="tg-0lax">To be filled in by foundations team:<br>defines the scope of the object - E2E or MVP</td>
+    <td class="tg-0lax">To be filled in by foundations team:<br>Draft, MVP approved, DCE2E approved</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">(mandatory)</td>
+    <td class="tg-0lax">(mandatory)</td>
+    <td class="tg-0pky">(optional)</td>
+    <td class="tg-0pky">(mandatory)</td>
+    <td class="tg-0pky">(mandatory)</td>
+    <td class="tg-0lax">(optional)</td>
+    <td class="tg-0lax">(optional)</td>
+    <td class="tg-0lax">(mandatory)</td>
+    <td class="tg-0lax">(mandatory)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Artwork</td>
+    <td class="tg-0lax">An artwork is a digital library component which is directly applied to the fabric <br>and becomes a merged component of the garment through the process<br> of printing or embroidering, whereas a trim has the image to be added applied<br> to an extra layer of material that is then attached onto the garment through <br>the process of heatpressing amongst others.</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky">artwork_sample.jpg</td>
+    <td class="tg-0pky">Create</td>
+    <td class="tg-0lax">- CLO3D<br>- Vizoo/Xtex<br>- Photoshop<br>- Illustrator</td>
+    <td class="tg-0lax">Department xxx</td>
+    <td class="tg-0lax">MVP Footwear Creation</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Last</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual 2D/3D file of a last, i.e. a mechanical form with a shape of a human foot, <br>which is used to design and manufacture a shoe on it.<br><span style="font-weight:bold">Availability</span>: There are in total ca. 500 lasts which exist in different sizes and forms <br>(e.g. low cut, high cut, etc.). Ca. 50 new lasts are created per year.<br>.stl files are existing for each last in the RCS (database) and those files can automatically be transferred into .obj files.<br>At the moment, .stl files can be transferred into .3DM files,<br> but it is not an automated process yet (the automated process is curretly being built)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>- TAPE<br>- Rhino<br>- Clo<br><span style="font-weight:bold">File Format</span>:<br>.stl (file for production)<br>.obj (file to upload in TAPE)<br>.3DM (file to upload in Rhino)<br>.dxf (2D file of the bottom gauge <br>/ has the form of a normal insole)</td>
+    <td class="tg-0lax">The last database RSC (= all existing .stl files), is currently owned be the Last Department (Jürgern Schacher). <br>ACT has ownership on the 3D files (.obj, and .3DM).<br>Going forward, the governance should lie with the Last Department (in particular on controlling access)</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Base Pattern (FTW)</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual file of a base pattern. There is always one base pattern created for one last.<br><span style="font-weight:bold">Availability</span>: .pat: stored at shared server for HZO, shared server owned by Sourcing for T1<br>.3dm: first files exisiting (.3dm files for Jevero can easily be transferred from .pat files from Crispin program)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax">Jevero (.3dm)</td>
+    <td class="tg-0lax">.pat/.3dm: Pattern maker for Herzo, Jenny Tay (PCT) for Sourcing</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Bottom</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: <br>- Virtual file of the midsole, i.e. the layer of material or cushioning between the outsole and the insole of a shoe<br>- Virtual file of the outsole, i.e. the bottommost part of a shoe that comes <br>   in direct contact with the ground, mostly made out of rubber<br>- Virtual file of the negatives of the above for tooling (? / tbc)<br><span style="font-weight:bold">Availability</span>: Files existing at T1 (a tooling library has been initiated years ago - tbc with Jenny Tay)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>- Rhino<br>- TAPE<br>- (MODO/MOJO)<br><span style="font-weight:bold">File Format:</span><br>.3dm</td>
+    <td class="tg-0lax">No clear ownership defined at the moment, T1 + Jenny Tay (PCT) involved</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Midsole</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>:<br>- Virtual file of the midsole, i.e. the layer of material or cushioning between the outsole and the insole of a shoe<br>- Virtual file of the negatives of the above for tooling (? / tbc)<br><span style="font-weight:bold">Availability</span>: Files existing at T1 (a tooling library has been initiated years ago - tbc with Jenny Tay)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax">Tools:<br>- Rhino<br>- TAPE<br>- (MODO/MOJO)<br><span style="font-weight:bold">File Format</span>:<br>.3dm</td>
+    <td class="tg-0lax">No clear ownership defined at the moment, T1 + Jenny Tay (PCT) involved</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Outsole</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>:<br>- Virtual file of the outsole, i.e. the bottommost part of a shoe that comes in direct contact with the ground, <br>&nbsp;&nbsp;&nbsp;mostly made out of rubber<br>- Virtual file of the negatives of the above for tooling (? / tbc)<br><span style="font-weight:bold">Availability</span>: Files existing at T1 (a tooling library has been initiated years ago - tbc with Jenny Tay)</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>- Rhino<br>- TAPE<br>- (MODO/MOJO)<br><span style="font-weight:bold">File Format</span>:<br>.3dm</td>
+    <td class="tg-0lax">No clear ownership defined at the moment, T1 + Jenny Tay (PCT) involved</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Components</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual files of pre-fabricated objects which are used as components in a finished shoe, e.g. eyelet<br><span style="font-weight:bold">Availability</span>: No pre-defined library existing yet, but rather on-demand additions to library after constructing new shoe</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">- eyelets<br>- laces?<br>- torsion bar?</td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax">Rhino (.3dm)</td>
+    <td class="tg-0lax">.3dm file: onwership should lie with T1</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Materials (FTW)</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual file of 3D scans of materials which are used in a shoe (e.g., leather)<br><span style="font-weight:bold">Availability</span>:~200 materials in .amdf available (from test phase)<br>Complete database available for .rtt files ( ~10.000 materials), which can no longer be used<br>adiML (=project to roll out MODO/MOJO) also plans for scanning of materials, <br>but mode, locations, prioritization and timing of scanning is still to be finalized (starting in October earliest)<br>The FTW MVP requires scanning of ~10 material (which will be done on demand by ACT)<br>Digital Creators have the plane to digitize the Core toolbox</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>MODO/MOJO Toolsuite (.amdf)<br>TAPE (picture format)<br>Photoshop (picture format)<br><span style="font-weight:bold">File format</span>:<br>.amdf (file with most details, provides physical property of the material)<br>.tif/.jpeg/+ other picture formats (those formats are "downgrades" of the .amdf file - those files can automatically be generated from the .amdf file)<br>.rtt ("indirect" materials files which can only be used in RTT, but not usable for any other program)</td>
+    <td class="tg-0lax">.amdf: undefined (currently ACT, T1 in future?)<br>.rtt: ownership entailed within the software program (which lies with Sourcing)</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Emboss</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual file of 3D scans of material surface (i.e. the physical structure of the surface), <br>which are used in a shoe's upper (e.g., leather structure on a non-leather material, shiny effects, etc.)<br><span style="font-weight:bold">Availability</span>: No database of .amdf existing yet (good thing is that it is a "stable" library, <br>i.e. only very few files are added over time)<br>Complete database available for .rtt files, which can no longer be used</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>MODO/MOJO Toolsuite (.amdf)<br>TAPE (picture format)<br>Photoshop (picture format)<br><span style="font-weight:bold">File format</span>:<br>.amdf (file with most details, provides physical property of the material)<br>.tif/.jpeg/+ other picture formats (those formats are "downgrades" of the .amdf file - those files can automatically be generated from the .amdf file)<br>.rtt ("indirect" materials files which can only be used in RTT, but not usable for any other program)</td>
+    <td class="tg-0lax">.amdf files: undefined (currently ACT, T1 in future?)</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Grain</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual file of 3D scans of material surface (i.e. the physical structure of the surface), <br>which are used in a shoe's bottom (e.g., structure embossed to the rubber outsole, etc.)<br><span style="font-weight:bold">Availability</span>: No database of .amdf existing yet (good thing is that it is a "stable" library, <br>i.e. only very few files are added over time)<br>Complete database available for .rtt files, which can no longer be used</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>MODO/MOJO Toolsuite (.amdf)<br>TAPE (picture format)<br>Photoshop (picture format)<br><span style="font-weight:bold">File format</span>:<br>.amdf (file with most details, provides physical property of the material)<br>.tif/.jpeg/+ other picture formats (those formats are "downgrades" of the .amdf file - those files can automatically be generated from the .amdf file)<br>.rtt ("indirect" materials files which can only be used in RTT, but not usable for any other program)</td>
+    <td class="tg-0lax">.amdf files: undefined (currently ACT, T1 in future?)</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Treatments</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Virtual file of treatments that can be applied on a shoe, <br>e.g. 'Effektfolie', transparency effect, etc. (overall very limited number)<br><span style="font-weight:bold">Availability</span>: No database of .amdf treatment files existing yet <br>(good thing is that it is a "stable" library, i.e. only very few files are added over time)<br>Complete database available for .rtt files, which can no longer be used</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">which one exactly is the treatment, <br>the material left of laces<br>or 3 stripes?</td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>MODO/MOJO Toolsuite (.amdf)<br>TAPE (picture format)<br>Photoshop (picture format)<br><span style="font-weight:bold">File format</span>:<br>amdf (visuelle property)<br>XXX (physische property, gibt es bei APP schon)<br>weitere Bildformate (tif, etc.) die abgespeckte Versionen von em amdf sind<br>("indirect" rtt material</td>
+    <td class="tg-0lax">.amdf files: undefined (currently ACT, T1 in future?)</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Graphics (FTW)</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Picture files of "standard toolbox" graphics (e.g., prints) that are applied on a shoe <br>(library should only include the standard graphics given that the rest is individually designed for specific shoes)<br><span style="font-weight:bold">Availability</span>: "Standard toolbox" graphics are existing, but decentrally/locally stored by designers</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">"terrex" graphic print applied on a shoe</td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>AI/PS (.ai)<br>Rhino<br>MODO/MOJO Toolsuite<br>TAPE<br><span style="font-weight:bold">File format</span>:<br>.ai<br>.png/.tif</td>
+    <td class="tg-0lax">No ownership defined at the moment, Design Operations in the future?</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Color</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: File/Definition of colors which can be applied to the shoe<br><span style="font-weight:bold">Availability</span>: Available in AI, PS, RTT<br>PDM leading system for colors</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>Rhino<br>TAPE<br>MODO/MOJO<br>AI/PS<br>RTT<br><span style="font-weight:bold">File format</span>:<br>Some library formats for Adobe products, for RTT in Picturebook, Mojo?</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Base Pattern</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: Pattern template (basic block) with predefind measurements that define the fit. Starting point for any pattern reference development.<br><span style="font-weight:bold">Availability</span>:<br>- Pattern Management Sharepoint, sorted by basic pattern shipment <br>- 3D pattern server //dcgfs-hza.adidas.com/3D_basic_pattern<br></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax">Create</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>- Clo3D (import)<br>- FlexPLM (measurements spec) and basic pattern product information<br>- Fit Classification Documents<br><span style="font-weight:bold">File Format</span>:<br>- gerber file (zip)<br>- dxf as export from the zip<br></td>
+    <td class="tg-0lax">- owned by Business Unit in case of BU specific patterns<br>- ACT Pattern Team facilitates the shipment, calendar, sharepoint and coordinates fitting and updates</td>
+    <td class="tg-0lax">MVP Digital Libraries</td>
+    <td class="tg-0lax">Draft</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Fabric</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Definition</span>: all materials that are knitted (warp- or weftknit) <br>or woven sold on a roll e.g. single jersey, french terry, plain weave, tricot,…,<br><span style="font-weight:bold">Availability</span>:<br>MLM (source)<br>MOS<br>FlexPLM</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Tools</span>:<br>Clo3D<br><span style="font-weight:bold">File Format</span>:<br>MLM (material data)<br>MOS (2D image)</td>
+    <td class="tg-0lax">Materials Team <br>- Christine Volkholz<br>- representaiton in CLO - tbd<br>- scanning - tbd</td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</table>
+
+  
+</body>
+</html>
